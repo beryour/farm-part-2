@@ -34,7 +34,7 @@ resource "aws_cloudwatch_log_group" "sun_api" {
   name = "/ecs/sun-api"
 }
 
-# Here's our task definition, which defines the task that will be running to provide
+# Here's the task definition, which will define the task that will be running to provide
 # our service. The idea here is that if the service decides it needs more capacity,
 # this task definition provides a perfect blueprint for building an identical container.
 #
